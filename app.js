@@ -267,17 +267,20 @@ Hint: Be sure to declare and initialize the total variable before the iterations
 Complete Exercise 15 in the space below:
 */
 
-const numArrays = [
-	[100, 5, 23],
-	[15, 21, 72, 9],
-	[45, 66],
-	[7, 81, 90]
-];
+// const numArrays = [
+// 	[100, 5, 23],
+// 	[15, 21, 72, 9],
+// 	[45, 66],
+// 	[7, 81, 90]
+// ];
 
-const total = [];
-for (i = 0; i <= numsArray.length; i++) {
-    const add = total[i + i];
-}
+let total = 0;
+
+numArrays.forEach(function(array) {
+    array.forEach(function(num) {
+        total += num;
+    });
+});
 
 console.log('Exercise 15 result:\n', total);
 
