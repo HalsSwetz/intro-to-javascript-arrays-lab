@@ -6,7 +6,7 @@ Exercise 1: Define an empty array
 Exercise 1 has been completed for you:
 */
 
-// const foods = [];  
+const foods = [];  
 
 // console.log('Exercise 1 result:', foods);
 
@@ -21,7 +21,7 @@ Note: 'pizza' should be the first item in the array, followed by 'cheeseburger'.
 Complete Exercise 2 in the space below:
 */
 
-const foods = ['pizza', 'cheeseburger'];
+foods.push('pizza', 'cheeseburger');
 
 console.log('Exercise 2 result:', foods);
 
